@@ -1,0 +1,39 @@
+
+footer p {
+    color:blue;  
+}
+
+.column {
+    float: left;
+    width: 33.33%;
+    padding: 5px;
+}
+
+.main::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+.row::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+
+.title {
+    color: red;
+    text-align: center; ;
+}
+
+* {
+    box-sizing: border-box;
+  }
+
+.imgs {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+}
+
